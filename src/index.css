@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tips-checkbox {
+  @apply flex justify-center items-center h-9 w-48 px-10 py-4 rounded-xl font-bold border-2 hover:cursor-pointer transition-opacity opacity-30 hover:opacity-50 peer-checked:opacity-100;
+}
+.tag {
+  @apply mx-2 px-4 py-1 rounded-lg font-bold text-sm;
+}
+.form-input {
+  @apply py-2 px-20 rounded-lg border-2 border-gray-300 hover:bg-gray-100 duration-500;
+}
+.tag-color-red {
+  @apply bg-red-400 border-red-500 ring-red-500;
+}
+.tag-color-orange {
+  @apply bg-orange-400 border-orange-500 ring-orange-500;
+}
+.tag-color-green {
+  @apply bg-green-400 border-green-500 ring-green-500;
+}
+.tag-color-blue {
+  @apply bg-blue-400 border-blue-500 ring-blue-500;
+}
+.tag-color-yellow {
+  @apply bg-yellow-400 border-yellow-500 ring-yellow-500;
+}
+
+/* 
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  text-align: left;
+  zoom: 1;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  font-family: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 16px;
+}
+input[type="button"],
+input[type="text"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+th,
+td {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  white-space: nowrap;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+img {
+  vertical-align: text-bottom;
+  vertical-align: -webkit-baseline-middle;
+  max-width: 100%;
+  height: auto;
+  width*: auto;
+}
+ */

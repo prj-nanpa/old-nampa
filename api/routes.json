@@ -1,0 +1,4 @@
+{
+    "/users?userid=:user_id": "/:user_id",
+    "/events?eventid=:id":"/:id"
+}
